@@ -1,4 +1,4 @@
-HelloWorld2. C# tutorials. ASP.NET Core Web Application. 
+HelloWorld2. C# tutorials. ASP.NET Core Web Application.
 Simple HTML Page. Simple ASP.Net Core Razor Page. Simple ASP.Net Core Web Controller. 
 The web application consists of a start page with the file name "index.html" and a server web page with the file name "Hello.cshtml"
 and a program file named "Program.cs". 
