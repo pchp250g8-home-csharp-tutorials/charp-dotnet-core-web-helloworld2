@@ -2,6 +2,30 @@ HelloWorld2. C# tutorials. ASP.NET Core Web Application.
 Simple HTML Page. Simple ASP.Net Core Razor Page. Simple ASP.Net Core Web Controller. 
 
 
+
+
+
+
+The program with the file name "Program.cs", which is converted into an executable file (assembly) in the DotNet Core environment using the C# compiler, 
+does the following:
+  1. Creates a working environment for the Kerstel web server.
+  2. Configures settings for accepting and processing requests to display static and dynamic web pages.
+  3. Starts the web server and processes requests to display static and dynamic web content pages.
+     The pages themselves can be generated either on the fly (the "servlet" code is executed):
+     web request handler (GET, POST, HEAD, PUT),
+     files in the C# programming language that will be converted into assemblies for the DotNet Core runtime environment)
+     or read from files with .html extensions (client-side static web page) and/or
+     .cshtml (a server-side web page that may contain code in the C# programming language in addition to HTML markup language).
+  4. Executes the Web Request Handler Code Named "HelloWorld".
+     4.1. Sets the data transfer type to "text/html." The browser will display a web page with text and HTML markup.
+     4.2. Displays the message "Hello, World" on the web page.
+     4.3. Displays information about the operating system on the web page.
+     4.4. Displays information about the DotNet Core runtime environment on the web page.
+     4.5. Displays a text message on the web page with the current date at the time the web application was launched.
+          All text messages are displayed on a new line.
+     4.6. Displays a hyperlink to a static web page with the file name "index.html" and the value (text) "Simple Html Page" on the web page.
+     4.7. Displays a hyperlink to a server web page with the file name "Hello.cshtml" and the value (text) "Razor Page" on the web page.
+
 HelloWorld2. Занятия по C#. ASP.NET Core Веб приложение. Простая HTML страница. 
 Простая серверная ASP.Net Core Razor страница. Простой ASP.Net Core обработчик HTTP/HTTPS запросов.
 Веб приложение состоит из стартовой страницы с именем файла "index.html", серверной веб страницы с именем файла "Hello.cshtml" 
