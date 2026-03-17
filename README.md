@@ -1,11 +1,28 @@
 HelloWorld2. C# tutorials. ASP.NET Core Web Application. 
 Simple HTML Page. Simple ASP.Net Core Razor Page. Simple ASP.Net Core Web Controller. 
-
-
-
-
-
-
+The web application consists of a start page with the file name "index.html" and a server web page with the file name "Hello.cshtml"
+and a program file named "Program.cs". 
+The static (client) web page with the file name "index.html" consists of the following parts (elements):
+  1. Page title with the value "Start Page".
+  2. Page encoding with the value "utf-8" (applied by default during creation).
+  3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
+  4. The first level page body heading (there are 6 of them in total) with the value "Hello, World".
+  5. A hyperlink to a server web page with the file name "Hello.cshtml" and the value (text) "Razor Page".
+  6. A hyperlink to a web request handler (web controller) named "HelloWorld".
+  with the value (text) "ASP.Net Core Controller" (the handler code is contained in the program file "Program.cs").
+All hyperlinks are displayed on a new line on the page. 
+The server web page with the file name "Hello.cshtml" consists of the following parts:
+  1. Page title with the value "Hello Page"
+  2. Page encoding with the value "utf-8" (applied by default during creation).
+  3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
+  4. The title of the first level page body (there are 6 of them in total) with the value "Welcome".
+  5. Code fragments in C#. Posted in paragraph #1.
+  The web browser page displays the current date, operating system version, and the version of the DoNet Core runtime environment.
+  6. A hyperlink to a static web page with the file name 'index.html' and the value (text) 'Simple Html Page'.
+  Placed in paragraph №2.
+  7. A hyperlink to the web request handler (web controller) named "HelloWorld". Located in paragraph #2.
+     Each hyperlink is placed on a new line.
+All elements (text) are centered on the server web page. 
 The program with the file name "Program.cs", which is converted into an executable file (assembly) in the DotNet Core environment using the C# compiler, 
 does the following:
   1. Creates a working environment for the Kerstel web server.
